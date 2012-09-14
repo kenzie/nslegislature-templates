@@ -1,0 +1,24 @@
+/**********************************************************
+
+	Nova Scotia Legislature, About Styles
+	March 2010
+	kenzie@famousfolks.ca
+
+**********************************************************/
+
+
+/* =Timeline *********************************************/
+
+.article .browser { background: #4b4b4b; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; overflow: auto; height: 370px; width: 100%; }
+
+.article .years { font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 1.4em; list-style: none; padding-top: 5em; position: relative; }
+.article .years li { float: left; margin: 1px; }
+.article .years li a { background: #ccc; display: block; padding: 2px 20px; text-decoration: none; }
+.article .years li.current a { background: none; }
+
+.article .years li ul { font-size: 1.6em; list-style: none; }
+.article .years li ul li a { background: none; border: 1px solid #fff; padding: 2px 10px; }
+.article .years li.current ul li.current a { border-color: #3c8281; }
+
+.javascript .article .years li ul { display: none; position: absolute; top: 0; left: 0; padding: 1em 0; }
+.article .years li.current ul { display: block; }

@@ -1,0 +1,70 @@
+/**********************************************************
+
+	Nova Scotia Legislature, Members Styles
+	February 2010
+	kenzie@famousfolks.ca
+
+**********************************************************/
+
+
+/* =Article **********************************************/
+
+.article h3 { color: #333; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 1.4em; margin: 0 0 1em 0; }
+.article h3 strong { color: #00415e; display: block; font-size: 1.8em; line-height: 1.6; }
+
+.article p strong.elected { color: #999; padding-right: 5px; text-transform: uppercase; }
+
+.article .links li { line-height: 1.5; }
+
+.article .links li a:link { text-decoration: underline; }
+.article .links li a:visited { text-decoration: underline; }
+.article .links.related li a:hover, .article .links.related li a:focus, .article .links.related li a:active { text-decoration: underline; }
+
+.article .links.related li .contact { font-family: Times, 'Times New Roman', Georgia, serif; font-size: 1em; margin-bottom: 1em; padding-left: 10px; }
+.article .links.related li .contact a { background: none; padding: 0;}
+
+.article .links.bills li { margin: 0 0 .75em 0; }
+.article .links.bills a { display: block; }
+
+.article .updated { background: #999; clear: left; color: #fff; float: left; font-size: 1em; font-style: italic; margin-bottom: 0; padding: 2px 4px; }
+.article .updated strong { font-style: normal; font-weight: normal; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; }
+
+/* Seats */
+.aside p.seats { font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: bold; text-align: right; }
+.aside ul.seats { font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; line-height: 1.4; list-style: none; margin: 0 0 2em 0; }
+.aside ul.seats li strong { float: right; font-weight: normal; }
+.aside ul.seats li.total { margin-top: 1em; }
+.aside ul.seats li.ndp { background: url(../images/icons/bullet-5x5-orange.gif) no-repeat 0 50%; padding-left: 10px; }
+.aside ul.seats li.pc { background: url(../images/icons/bullet-5x5-blue.gif) no-repeat 0 50%; padding-left: 10px; }
+.aside ul.seats li.liberal { background: url(../images/icons/bullet-5x5-red.gif) no-repeat 0 50%; padding-left: 10px; }
+.aside ul.seats li.independent { background: url(../images/icons/bullet-5x5-green.gif) no-repeat 0 50%; padding-left: 10px; }
+.aside ul.seats li.vacant { background: url(../images/icons/bullet-5x5-grey.gif) no-repeat 0 50%; padding-left: 10px; }
+
+/* Seating */
+ul.seating { clear: both; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; list-style: none; overflow: hidden; width: 100%; }
+ul.seating li { float: left; height: 18em; margin: 0 7px 10px 0; overflow: hidden; width: 92px; }
+ul.seating li a { display: block; font-weight: bold; padding: 4px 0; }
+ul.seating li a:link { color: #3f94cc; }
+ul.seating li a:visited { color: #3f94cc; }
+ul.seating li a:active, ul.seating li a:focus, ul.seating li a:hover { color: #d88e11; }
+ul.seating li img { display: block; border-right: 35px solid #333; }
+ul.seating li.ndp img { border-color: #f6921e; }
+ul.seating li.liberal img { border-color: #c0272d; }
+ul.seating li.pc img { border-color: #0071bb; }
+ul.seating li.independent img { border-color: #009145; }
+ul.seating li em { color: #666; display: block; font-family: Times, 'Times New Roman', Georgia, serif; }
+
+
+/* =Sidebar **********************************************/
+
+.sidebar a { font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; }
+.content .article a.rss:link, .content .article a.rss:visited { color: #999; }
+
+.sidebar .portrait { margin-bottom: 1em; }
+
+.sidebar dl { margin: 2em 0; }
+.sidebar dl dt { color: #999; font-size: 1.2em; font-weight: bold; margin: 0 0 1em 0; text-transform: uppercase; }
+.sidebar dl dd { font-size: 1.2em; }
+
+.sidebar dl.address dd.numbers { margin-top: 1em; }
+.sidebar dl.address dd.links  { margin-top: 1em; }

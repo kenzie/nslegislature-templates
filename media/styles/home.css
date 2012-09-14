@@ -1,0 +1,29 @@
+/**********************************************************
+
+	Nova Scotia Legislature, Home Styles
+	February 2010
+	kenzie@famousfolks.ca
+
+**********************************************************/
+
+.header h1 { height: 130px; }
+
+.nav { min-height: 180px; }
+.nav p { font-size: 1.4em; padding: 20px 20px 0 20px; }
+.nav p a:link, .nav p a:visited { color: #999; }
+.nav div { margin-top: 1em; }
+
+.no-content { background: transparent; border: 0; height: 920px; width: 1000px; }
+.no-content a { font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; }
+.no-content a:link { color: #3f94cc; }
+.no-content a:visited { color: #3f94cc; }
+.no-content a:hover, .no-content a:focus, .no-content a:active { color: #d88e11; }
+
+.photo { background: rgba(0,0,0,0.65); color: #eee; clear: both; float: left; margin: 0 10px 10px 0; width: 290px; }
+.photo h2 { font-size: 1.2em; padding: 20px 20px 0 20px; }
+.photo p { font-size: 1.1em; padding: 0 20px 20px 20px; }
+
+.notice { background: #00415e; color: #fff; float: left; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 1.2em; width: 680px; }
+.notice p { padding: 20px; }
+.notice p em { font-size: 1.2em; font-family: Times, 'Times New Roman', Georgia, serif; }
+.notice { box-shadow: 2px 2px 5px #999; -webkit-box-shadow: 2px 2px 5px #999; -moz-box-shadow: 2px 2px 5px #999; }

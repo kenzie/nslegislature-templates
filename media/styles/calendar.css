@@ -1,0 +1,56 @@
+/**********************************************************
+
+	Nova Scotia Legislature, Calendar Styles
+	March 2010
+	kenzie@famousfolks.ca
+
+**********************************************************/
+
+
+/* =Article *********************************************/
+
+.article { padding-bottom: 2em; }
+.article .aside { width: 340px; }
+
+/* Tables */
+
+table { width: 340px; }
+table thead tr th { background: #fff; }
+table thead tr th.month { font-size: 1.8em; font-weight: normal; text-align: center; }
+table thead tr.days th { font-weight: normal; color: #999; }
+
+table a { display: block; padding: 2px; text-decoration: none; }
+
+table tbody tr.current td { background: #3C82A1; }
+table tbody tr.current td a:link, table tbody tr.current td a:visited { color: #fff; }
+table tbody tr.current td a:hover { color: #d88e11; }
+
+table tbody tr:hover { background: #eee; }
+table tbody tr td.outside a:link, table tbody tr td.outside a:visited { color: #ccc; }
+table tbody tr td.outside a:hover { color: #d88e11; }
+
+/* Months */
+
+table thead a { display: block; width: 20px; height: 20px; text-indent: -900em; overflow: hidden; }
+table thead a.previous-month { background: url(/images/icons/arrow-cal-left-teal.png) no-repeat 0 50%; float: left; }
+table thead a.next-month { background: url(/images/icons/arrow-cal-right-teal.png) no-repeat 100% 50%; float: right; }
+table thead a.previous-month:hover { background-image: url(/images/icons/arrow-cal-left-yellow.png); }
+table thead a.next-month:hover { background-image: url(/images/icons/arrow-cal-right-yellow.png); }
+
+
+/* Weeks */
+
+p.weeks { font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 1.4em; padding: 1em 0; }
+p.weeks a.previous { background: url(/images/icons/arrow-cal-left-teal.png) no-repeat 0 50%; display: block; float: left; padding-left: 22px; }
+p.weeks a.next { background: url(/images/icons/arrow-cal-right-teal.png) no-repeat 100% 50%; display: block; float: right; padding-right: 22px; }
+p.weeks a.previous:hover { background-image: url(/images/icons/arrow-cal-left-yellow.png); color: #d88e11; }
+p.weeks a.next:hover { background-image: url(/images/icons/arrow-cal-right-yellow.png); color: #d88e11; }
+
+/* Events */
+
+.article h4 { background: #e7e7e7; border-bottom: 1px solid #999; color: #333; clear: both; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 1.4em; font-weight: normal; padding: 4px; text-transform: none; }
+dl { font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 1.2em; overflow: hidden; }
+dl dt { clear: both; font-weight: bold; margin: 1em 0; text-transform: uppercase; }
+dl dd { float: left; margin: 0 40px 0 0; width: 120px;}
+dl dd.detail { width: 340px;}
+dl dd ul.links.related { font-size: 1em; margin-top: 0; }

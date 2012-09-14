@@ -1,0 +1,49 @@
+/**********************************************************
+
+	Nova Scotia Legislature, Proceedings Styles
+	February 2010
+	kenzie@famousfolks.ca
+
+**********************************************************/
+
+
+/* =Bills ************************************************/
+
+.status.first { color: #c0272d; }
+.status.second { color: #faaf3b; }
+.status.third { color: #009145; }
+.status.assent { color: #662d90; }
+
+.key { font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 1.2em; }
+
+.progress { line-height: 1.5; }
+.progress tr.odd td, .progress tr.odd th { background: #f2f2f2; }
+.progress th { width: 50%; vertical-align: top; }
+.progress td em { font-size: .9em; }
+
+
+/* =Hansard **********************************************/
+
+#hansard-search h4 { font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 2em; margin-bottom: 0; }
+#hansard-search h4 + p { font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; margin-top: 0; font-size: 1.2em; }
+
+#hansard-search .advanced { font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 1.2em; }
+#hansard-search .advanced a { background: url(../images/icons/arrow-small-right-white.png) no-repeat 0 4px; padding-left: 10px; }
+#hansard-search .advanced a:link { color: #fff; }
+#hansard-search .advanced a:visited { color: #fff; }
+#hansard-search .advanced a:hover, #hansard-search .advanced a:focus, #hansard-search .advanced a:active { color: #d88e11; background-image: url(../images/icons/arrow-small-right-yellow.png); }
+
+.assembly { font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; margin: 0 0 4em 0; }
+.assembly dt { font-size: 1.8em; font-weight: normal; margin-top: 1.5em; }
+.assembly dt em { border-left: 1px solid #333; font-size: 0.6em; font-style: normal; margin-left: 5px; padding-left: 7px; }
+.assembly dd { font-size: 1.2em; padding: .5em 0 .1em 0; }
+.assembly dd a { background: url(../images/icons/arrow-small-right-teal.png) no-repeat 0 4px; display: inline-block; padding-left: 10px; width: 9em; }
+.assembly dd a:link { color: #3f94cc; }
+.assembly dd a:hover, .assembly dd a:focus, .assembly dd a:active { color: #d88e11; background-image: url(../images/icons/arrow-small-right-yellow.png); }
+
+.article .latest { background: #e6e6e6; margin: 1em 0 0 0; padding: 10px; }
+.article .latest #hansard-search { color: #fff; margin: 0 0 2em 0; }
+.article .latest .assembly { margin-bottom: 1em; }
+.article .latest .assembly dt { margin-top: 1em; }
+
+.article .previous { background: #fff; padding: 10px; }

@@ -1,0 +1,33 @@
+/**********************************************************
+
+	Nova Scotia Legislature, IE Bugfix Styles
+	February 2010
+	kenzie@famousfolks.ca
+
+**********************************************************/
+
+/* drop shadows (no CSS3 support) */
+.header, .nav, .content, .notice { filter: progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=120, Strength=5); }
+.nav { margin-left: -5px; }
+
+/* home */
+.no-content { height: 700px; }
+.no-content .photo { background: url(../images/backgrounds/60pct-black.png) 0 0; }
+
+/* photos */
+.content .article p.browse { margin-top: -1em; }
+
+/* min- and max-height */
+.nav { height: 133px; }
+
+/* positioning */
+.footer .copyright { background-position: 20px 70%; }
+.aside ul.seats li strong { margin-top: -1.5em; }
+
+/* IE6 repairs */
+* html .header, * html .nav { height: 130px; }
+* html .nav div { margin-left: 10px; }
+* html .primary { zoom: 1; }
+* html .secondary li a { zoom: 1; }
+* html .subnav p { font-size: 1.2em; margin: 2em 0 1em 20px; }
+* html .footer .featured-member { margin-left: 40px; }
